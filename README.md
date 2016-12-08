@@ -39,7 +39,7 @@ user’s complaint history as follows:
 where TotalLevelsuser is the sum of the levels of all messages filed by the user who issued the current
 message and can be found in the archive. For example, if a user has issued three messages whose level
 values were 2, 4 and 4, then the value of TotalLevelsuser is 10.
-Hash Function
+#Hash Function
 You should implement the following hash function (which is a variation on the built-in Java hash function
 for Strings):
 ℎ(𝑛𝑎𝑚𝑒) = 23𝑛−1 × 𝑛𝑎𝑚𝑒[0] + 23𝑛−2 × 𝑛𝑎𝑚𝑒[1] + ⋯ + 𝑛𝑎𝑚𝑒[𝑛 − 1] = ∑23𝑛−1−𝑖𝑛𝑎𝑚𝑒[𝑖],
