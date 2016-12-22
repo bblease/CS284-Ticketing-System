@@ -1,5 +1,5 @@
 # CS284-Ticketing-System
-A Java implementation of an IT ticketing system
+A Java implementation of an IT ticketing system for CS284 - Data Structures at Stevens Institute of Technology
 
 #Assignment
 
