@@ -1,7 +1,7 @@
 # CS284-Ticketing-System
 A Java implementation of an IT ticketing system for CS284 - Data Structures at Stevens Institute of Technology
 
-#Assignment
+## Assignment
 
 This repository contains my implementation of the CS284 Final Project
 
@@ -11,10 +11,10 @@ I pledge my honor that I have abided by the Stevens honor system.
 
 CS284 curriculum has since changed and no longer includes this assignment.
 
-#From the Assignment
+# From the Assignment
 
-#Requirements
-#Input:
+## Requirements
+## Input:
 Your program should read from a file named “messages.txt” that contains the information provided by
 the users. Each line has the following format:
 Username|Hostname|Problem|Level
@@ -23,7 +23,7 @@ alecsmart|arts|RAM|4
 (To parse the above, you may re-use the string-parsing examples in the book.)
 Your code should also check for the break line that should trigger the processing of messages in the
 priority queue.
-#Data Structures
+## Data Structures
 You should implement a priority queue for inserting the messages once they have been read from the
 input file. The message with the highest priority should be returned first.
 There should also be an array that serves as the archive of all messages that have not been ignored.
@@ -31,7 +31,7 @@ Finally, there should be hash tables, implemented using open addressing and line
 fast retrieval of messages based on username, hostname or issue type. The hash table should store the ID
 number of each message only. Given the ID number, gathering all relevant data from the archive should
 be easy.
-#Message Priority
+## Message Priority
 The internal priority of a message should be determined by the level set by the user and adjusted by the
 user’s complaint history as follows:
 3
